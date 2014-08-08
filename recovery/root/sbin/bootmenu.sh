@@ -18,12 +18,18 @@ format_to_f2fs() {
 DEFAULTROM=0
 F2FS=0
 
-# Galaxy Tab 3 T31x block device
+# Galaxy Note 2 N7105 block device
 # Don't use /dev/block/platform/*/by-name/* symlink!
-SYSTEMDEV="/dev/block/mmcblk0p20"
-DATADEV="/dev/block/mmcblk0p21"
-CACHEDEV="/dev/block/mmcblk0p19"
-HIDDENDEV="/dev/block/mmcblk0p16"
+SYSTEMDEV="/dev/block/mmcblk0p13"
+DATADEV="/dev/block/mmcblk0p16"
+CACHEDEV="/dev/block/mmcblk0p12"
+HIDDENDEV="/dev/block/mmcblk0p14"
+
+# Galaxy Tab 3 T31x block device
+# SYSTEMDEV="/dev/block/mmcblk0p20"
+# DATADEV="/dev/block/mmcblk0p21"
+# CACHEDEV="/dev/block/mmcblk0p19"
+# HIDDENDEV="/dev/block/mmcblk0p16"
 
 # Galaxy Tab 2 block device
 # SYSTEMDEV="/dev/block/mmcblk0p9"

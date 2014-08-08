@@ -1,6 +1,6 @@
 #!/sbin/sh
 
-# Galaxy Tab 3 T31x block device
+# Galaxy Tab 3 T31x and Note 2 N7105 block device
 SYSTEMDEV="/dev/block/platform/dw_mmc/by-name/SYSTEM"
 CACHEDEV="/dev/block/platform/dw_mmc/by-name/CACHE"
 DATADEV="/dev/block/platform/dw_mmc/by-name/USERDATA"
