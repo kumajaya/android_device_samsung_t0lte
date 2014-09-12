@@ -30,7 +30,7 @@ COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND='{ "ril.ks.status", AID_SYSTEM, 
 COMMON_GLOBAL_CFLAGS += -DCAMERA_WITH_CITYID_PARAM
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk4x12
 ifeq ($(TARGET_VOICE_TECH), cdma)
 TARGET_KERNEL_CONFIG := cyanogenmod_t0ltecdma_defconfig
 else
